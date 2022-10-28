@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnuGridLayout"
+        android:title="GridLayout" />
+    <item
+        android:id="@+id/mnuLinerLayout"
+        android:title="LinerLayout" />
+    <item
+        android:id="@+id/mnuStaggerLayout"
+        android:title="StaggerLayout" />
+</menu>

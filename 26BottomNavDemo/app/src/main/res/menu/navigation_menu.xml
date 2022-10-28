@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/favoritesFragment"
+        android:icon="@drawable/ic_baseline_grade_24"
+        android:orderInCategory="3"
+        android:title="Favorites" />
+    <item
+        android:id="@+id/nearbyFragment"
+        android:icon="@drawable/ic_baseline_edit_location_24"
+        android:orderInCategory="2"
+        android:title="Nearby" />
+    <item
+        android:id="@+id/recentsFragment"
+        android:title="Recents"
+        android:icon="@drawable/ic_baseline_history_24"
+        android:orderInCategory="1"/>
+
+</menu>

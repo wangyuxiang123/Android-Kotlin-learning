@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav_graph"
+    app:startDestination="@id/recentsFragment">
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.bottomnavdemo.FavoritesFragment"
+        android:label="fragment_favorites"
+        tools:layout="@layout/fragment_favorites" >
+        <action
+            android:id="@+id/action_favoritesFragment_to_nearbyFragment"
+            app:destination="@id/nearbyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nearbyFragment"
+        android:name="com.example.bottomnavdemo.NearbyFragment"
+        android:label="fragment_nearby"
+        tools:layout="@layout/fragment_nearby" />
+    <fragment
+        android:id="@+id/recentsFragment"
+        android:name="com.example.bottomnavdemo.RecentsFragment"
+        android:label="fragment_recents"
+        tools:layout="@layout/fragment_recents" >
+        <action
+            android:id="@+id/action_recentsFragment_to_favoritesFragment"
+            app:destination="@id/favoritesFragment" />
+    </fragment>
+</navigation>
